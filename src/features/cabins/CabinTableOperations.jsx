@@ -2,7 +2,7 @@ import TableOperations from "../../ui/TableOperations";
 import Filter from "../../ui/Filter";
 import SortBy from "../../ui/sortBy";
 
-const CabinTableOpeerations = () => {
+const CabinTableOperations = () => {
   return (
     <TableOperations>
       <Filter
@@ -28,4 +28,4 @@ const CabinTableOpeerations = () => {
   );
 };
 
-export default CabinTableOpeerations;
+export default CabinTableOperations;
